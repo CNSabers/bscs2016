@@ -1,2 +1,2 @@
-# bscs2016
-Blake Software Design 2016
+# Bakken Quiz App
+By Blake Software Design 2016
