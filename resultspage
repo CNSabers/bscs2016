@@ -1,17 +1,17 @@
 <!DOCTYPE>
 <html>
     <head>
-        <link rel = "stylesheet" href = "resultspage.css">
+        <link rel="stylesheet" href="resultspage.css">
         <title>Your Results</title>
+        <meta charset="utf-8">
     </head>
     <body>
         <h1>These are the results of your quiz!</h1>
         <p>Text that reflects your results and explains them</p>
-        <div class = "share">
-            <button type="button" id="shareresults">Share Results</button>
+        <div class="content">
+            <button type="button" id="shareResults">Share Results</button>
+            <button type="button" class="returnToHome">Take Another Quiz</button>
         </div>
-        <div class = "home">
-            <button type="button" id="gohome">Take Another Quiz</button>
-        </div>
+        <footer></footer>
     </body>
 </html>
