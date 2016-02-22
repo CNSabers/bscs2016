@@ -3,15 +3,22 @@
     <head>
         <title>Choose Your Quiz page</title>
         <meta charset="utf8">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="choose_your_quiz.css">
         <!--Scripts-->
     </head> 
     <body>
         <header>Choose Your Quiz</header>
-        <div class="content">
-            <button onclick="">Which Mary?</button>
-            <button onclick="">Romantic?</button>
-            <p class="exampleElement">Description   Description</p>
+        <div class="content" id="chooseYourQuiz">
+            <div id="bothQuizButtonsAndDescriptions">
+                <div class="quizChoiceAndDescription" id="maryQuizAndDescription">
+                    <button onclick="" class="chooseQuizButtons" id="maryButton">Which Mary?</button>
+                    <p class="quizDescriptions" id="maryQuizDescription">Description of Mary Quiz</p>
+                </div>
+                <div class="quizChoiceAndDescription" id="romanticQuizAndDescription">
+                    <button onclick="" class="chooseQuizButtons" id="romanticButton"> Romantic?</button>
+                    <p class="quizDescriptions" id="romanticQuizDescription">Description of Romantic Quiz</p>
+                </div>
+            </div>
         </div>
         <footer></footer>
         <!--Scripts-->

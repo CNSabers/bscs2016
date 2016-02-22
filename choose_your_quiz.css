@@ -1,0 +1,55 @@
+.content {
+}
+
+#chooseYourQuiz {
+    text-align: center;
+}
+
+.chooseQuizButtons {
+    font-family:;
+    font-size:18pt;
+    margin:10%;
+}
+
+header {
+    text-align: center;
+    font-size:25pt;
+}
+
+#maryButton {
+    
+}
+
+#romanticButton {
+    
+}
+
+.quizDescriptions {
+    font-size:18pt;
+    font-family:;
+    
+}
+
+#maryQuizDescription {
+    width: 70%;
+}
+
+#romanticQuizDescription {
+    
+}
+
+#maryQuizAndDescription {
+    width: 150px;
+    margin: 0 auto;
+    float: left;
+}
+
+#romanticQuizAndDescription {
+    width:150px;
+    margin-left: 150px;
+}
+
+#bothQuizButtonsAndDescriptions {
+    display: table;
+    margin: 0 auto;
+}
