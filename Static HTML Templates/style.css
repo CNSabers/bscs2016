@@ -1,3 +1,6 @@
-.content{
-    text-align: center;
+.content p{
+    text-align: center; 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
