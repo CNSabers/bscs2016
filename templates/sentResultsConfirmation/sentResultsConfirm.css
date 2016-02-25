@@ -19,6 +19,8 @@ button {
 	font-size: 2.2em;
 	font-family: "Geneva";
 	margin-right: 12px;
+	cursor: pointer;
+}
 }
 
 .buttonWrapper {
