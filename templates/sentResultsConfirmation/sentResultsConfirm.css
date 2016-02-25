@@ -21,6 +21,9 @@ button {
 	margin-right: 12px;
 	cursor: pointer;
 }
+
+button:focus {
+	outline: none;
 }
 
 .buttonWrapper {
