@@ -1,0 +1,57 @@
+.content {
+    
+}
+
+#pageContent {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    height: 425px;
+    width: 70%;
+    
+}
+
+.buttons {
+    font-family:cursive;
+    font-size:21pt;
+    border-radius: 75px;
+    background: white;
+    border-color: black;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 4%;
+    text-align: center;
+    font-size:45pt;
+    font-family: monospace;
+}
+
+#buttonContainer {
+    margin:0 auto;
+    margin-top:11%;
+    height:100px;
+    
+}
+
+#chooseDifferentQuizButton {
+    float: left;
+    margin: 0 auto;
+    width:300px;
+    height:100px;
+}
+
+#playButton {
+    float:right;
+    margin: 0 auto;
+    width:300px;
+    height:100px;
+}
+
+#romanticQuizDescription {
+    margin:auto;
+    margin-top:10%; 
+    font-size:18pt; 
+}
