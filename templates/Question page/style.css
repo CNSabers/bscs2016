@@ -3,37 +3,37 @@ body{
     height: 768px
 }
 
-#top {
+#quiz .top {
     width: 1024px;
     height: 104px;
     border-width: 10px;
     border-color:black
 }
 
-.mainMenu {
+#quiz .mainMenu {
     width: 178px;
     height: 104px;
     font-size: 20pt;
 }
 
-#quizTitle {
+#quiz .top .quizTitle {
     width: 846px;
     height: 104px;
     float:right;
     text-align: right
 }
 
-.question {
+#quiz .question {
     float: center;
     text-align: center
     
 }
-.answers {
+#quiz .answers {
     width: 1024px;
     height: 500px;
 }
 
-.choices {
+#quiz .choices {
     list-style-type: none;
     width: 1024px;
     height: 370px;
@@ -41,7 +41,7 @@ body{
     margin: 31px
 }
 
-.choices li {
+#quiz .choices li {
     float:left;
     width: 417px;
     height: 364px;
@@ -50,11 +50,18 @@ body{
     text-align: center
 }
 
-.choices input[type="radio"]:checked + label {
+#quiz .choices input[type="radio"]:checked + label {
     background:blue;
 }
 
-.nextAndBack {
+/*Progress bar*/
+#quiz .progress {
+    
+}
+
+/*Next and back container*/
+
+#quiz .nextAndBack {
     width: 1024px;
     height: 100px;
     float: left;
