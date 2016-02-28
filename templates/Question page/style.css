@@ -67,10 +67,7 @@ input[type=radio]{
 
 #quiz .choices li {
     float:left;
-    width: 417px;
-    height: 364px;
     margin: 31px;
-    background-color: skyblue;
     text-align: center
 }
 
