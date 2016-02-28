@@ -3,6 +3,7 @@ body{
     height: 768px
 }
 
+/* Container for main menu button, quiz title, and question */ 
 #quiz .top {
     width: 1024px;
     height: 104px;
@@ -28,17 +29,40 @@ body{
     text-align: center
     
 }
+
+/*Answers*/
+
 #quiz .answers {
     width: 1024px;
     height: 500px;
 }
 
+/* list*/ 
 #quiz .choices {
     list-style-type: none;
     width: 1024px;
     height: 370px;
     float: left;
     margin: 31px
+}
+
+/* hide radio buttons */
+input[type=radio]{
+    display:none;
+}
+
+/* labels */
+.choices label {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 417px;
+    height: 364px;
+    font-size: 40pt;
+}
+
+/* when checked */ 
+.choices input[type="radio"]:checked + label {
+    background-color: blue;
 }
 
 #quiz .choices li {
@@ -48,15 +72,6 @@ body{
     margin: 31px;
     background-color: skyblue;
     text-align: center
-}
-
-#quiz .choices input[type="radio"]:checked + label {
-    background:blue;
-}
-
-/*Progress bar*/
-#quiz .progress {
-    
 }
 
 /*Next and back container*/
