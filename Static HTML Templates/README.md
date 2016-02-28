@@ -1,1 +1,0 @@
-Hey! This is a folder for static HTML Template files for each screen of the app.  Make a branch (titled appropriately), add your file to this folder, and submit a pull request, and have someone review your code for readability, standardization, and ease of styling before merging.
