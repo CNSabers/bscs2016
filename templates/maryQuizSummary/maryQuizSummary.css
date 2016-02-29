@@ -1,0 +1,29 @@
+.title{
+  text-align: center;
+  margin: 20px;
+  border: 1px solid black;
+  width: 250px;
+  margin-top: 20%;
+ }
+
+#maryQuizTitle {
+  margin:0 auto;
+  margin-top:3%;
+}
+.body{
+  margin: 0 auto;
+  text-align:center;
+  border: 1px solid black;
+  width: 250px;
+  margin-top:3%;
+}
+.button{
+  position; relative;
+  top: -40px;
+  right: 50px;
+  margin-right:2%;
+}
+
+#buttonContainer {
+  margin-left:47%;
+}
