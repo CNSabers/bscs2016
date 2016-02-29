@@ -55,8 +55,8 @@ input[type=radio]{
 .choices label {
     display: inline-block;
     background-color: aquamarine;
-    width: 417px;
-    height: 364px;
+    width: 282px;
+    height: 302px;
     font-size: 40pt;
 }
 
@@ -67,7 +67,7 @@ input[type=radio]{
 
 #quiz .choices li {
     float:left;
-    margin: 31px;
+    margin: 18px;
     text-align: center
 }
 
