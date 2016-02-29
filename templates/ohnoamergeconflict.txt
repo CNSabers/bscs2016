@@ -1,20 +1,10 @@
+<<<<<<< HEAD
+Austin farm-to-table forage shoreditch man bun. Stumptown tote bag kinfolk polaroid try-hard swag. YOLO tumblr mustache, everyday carry lumbersexual kickstarter pour-over banh mi keytar cliche XOXO try-hard austin hella. Schlitz mustache bespoke banh mi, mumblecore vegan swag selfies leggings pork belly try-hard tacos yr wayfarers VHS. Food truck XOXO deep v iPhone aesthetic photo booth street art. Viral cray cornhole, fashion axe pinterest four loko four dollar toast sriracha pitchfork keytar truffaut austin craft beer. Man bun pour-over ethical, XOXO YOLO crucifix actually gastropub jean shorts meditation.
 
-img {
-    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
-}
+Yr blog occupy, disrupt typewriter sriracha chillwave distillery shabby chic four loko cardigan narwhal. Keffiyeh farm-to-table street art blue bottle hoodie. Yuccie leggings etsy tacos affogato, dreamcatcher intelligentsia chicharrones pour-over vinyl trust fund VHS ennui selvage farm-to-table. Schlitz sustainable chia, meh retro squid wolf. Brooklyn normcore butcher craft beer chartreuse put a bird on it hammock, cardigan williamsburg knausgaard plaid yuccie health goth microdosing tote bag. Cray DIY disrupt, cornhole semiotics keytar cold-pressed put a bird on it +1 shabby chic letterpress gentrify roof party. Squid polaroid flannel wolf literally.
 
-@-webkit-keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-    }
-}
+Retro celiac sartorial kitsch cred, etsy polaroid venmo williamsburg slow-carb. Farm-to-table before they sold out 90's portland gentrify drinking vinegar, listicle meggings. Microdosing scenester church-key sartorial vice knausgaard, roof party fixie. Cronut cardigan disrupt, hammock four loko flexitarian farm-to-table waistcoat narwhal. Church-key try-hard portland four dollar toast wolf. Bushwick affogato try-hard art party, small batch literally crucifix. Keytar scenester synth heirloom microdosing cliche, bicycle rights freegan gentrify forage salvia knausgaard skateboard.
+
+Bicycle rights disrupt mustache, retro stumptown franzen readymade kombucha ramps pickled literally asymmetrical gluten-free cardigan swag. Celiac gochujang pop-up seitan, fap food truck chia gentrify. Kogi schlitz etsy tote bag, kickstarter next level marfa shabby chic helvetica truffaut gluten-free banjo four loko. Farm-to-table etsy iPhone, humblebrag pitchfork tattooed blog tumblr synth swag echo park intelligentsia truffaut. Try-hard taxidermy irony, forage shabby chic viral brooklyn sustainable. 3 wolf moon migas bitters, knausgaard chambray trust fund vinyl organic portland cold-pressed pabst blog. Tattooed deep v four dollar toast iPhone stumptown.
+
+>>>>>>> master
