@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:900|Roboto:400,100);
+
+body { background-color: #fff; padding: 20px; }
+
+#privpolicy { 
+font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400;
+width: 1024px; height: 768px; overflow: hidden;
+ }
+ 
+#privpolicy h1 {
+font-weight: 100; font-size: 2em; text-transform: uppercase;}
+
+#privpolicy h2 {
+font-weight: 20; font-size: 11; text-transform: uppercase; margin: 50px;
+
+} 
+
+#privpolicy button {
+padding: 10px 30px;
+}
