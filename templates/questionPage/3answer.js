@@ -3,5 +3,9 @@ function finish() {
 }
 
 function back() {
-    window.location.href = "../Question page/2answer.html";
+    window.location.href = "../questionPage/2answer.html";
+}
+
+function mainMenu() {
+    window.location.href = "../quitPage/quitpage.html";
 }
