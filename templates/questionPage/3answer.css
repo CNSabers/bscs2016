@@ -1,16 +1,3 @@
-body{
-    width: 1024px;
-    height: 768px
-}
-
-/* Container for main menu button, quiz title, and question */ 
-#quiz .top {
-    width: 1024px;
-    height: 104px;
-    border-width: 10px;
-    border-color:black
-}
-
 #quiz .mainMenu {
     width: 178px;
     height: 104px;
@@ -18,32 +5,27 @@ body{
 }
 
 #quiz .top .quizTitle {
-    width: 846px;
-    height: 104px;
     float:right;
-    text-align: right
 }
 
 #quiz .question {
     float: center;
-    text-align: center
-    
+    text-align: center 
 }
 
 /*Answers*/
 
 #quiz .answers {
-    width: 1024px;
-    height: 500px;
+    width: 100%;
+    height: 49%;
 }
 
 /* list*/ 
 #quiz .choices {
     list-style-type: none;
-    width: 1024px;
-    height: 370px;
+    width: 100%;
+    height: 36%;
     float: left;
-    margin: 31px
 }
 
 /* hide radio buttons */
@@ -67,15 +49,17 @@ input[type=radio]{
 
 #quiz .choices li {
     float:left;
-    margin: 18px;
+    margin: 2%;
+    width: 28%;
+    height: 30%;
     text-align: center
 }
 
 /*Next and back container*/
 
 #quiz .nextAndBack {
-    width: 1024px;
-    height: 100px;
+    width: 100%;
+    height: 8%;
     float: left;
     text-align: center
 }
