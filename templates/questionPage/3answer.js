@@ -1,5 +1,5 @@
 function finish() {
-    window.location.href = "../results_page/results_page.html";
+    window.location.href = "../results_page/resultspage.html";
 }
 
 function back() {
