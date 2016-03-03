@@ -4,7 +4,7 @@ function next() {
 }
 
 function back() {
-    window.location.href = "../chooseYourQuiz/chooseYourQuiz.html";
+    window.location.href = "../romanticQuizSummary/romanticQuizSummary.html";
 }
 
 function mainMenu() {
