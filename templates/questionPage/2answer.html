@@ -4,13 +4,16 @@
         <meta charset="utf-8"/>
         <title>Two-Answer Question Page</title>
         <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <script type="text/javascript" src="2answer.js"></script>
     </head>
     
     <body>
-        <div id= top>
-            <button type = "button" class = "mainMenu"> Main Menu </button>
-            <div id= "quizTitle">
-                <p>Which Mary are you?</p>
+        
+        <div id= "quiz">
+        <div class= top>    
+            <button type = "button" class = "mainMenu" onclick="mainMenu()">Main Menu</button>
+            <div class= "quizTitle">
+                <p>Are you a romantic?</p>
             </div>
         </div>
         
@@ -23,16 +26,16 @@
                     <input type="radio" name="question1" value="classical" id= "classical"> <label for="classical"> Homework </label>
                 </li>
                 <li>
-                    <input type="radio" name="question1" value="romantic" id= "classical"> <label for= "romantic">Rolling in dirt</label>
+                    <input type="radio" name="question1" value="romantic" id= "romantic"> <label for= "romantic">Rolling in dirt</label>
                 </li>
             </ul>
-        </div>
+            </div>
         
         <div class = "nextAndBack">
-            <button type = "button" id = "nextButton"> Next </button>
-            <button type = "button" id = "backButton"> Back </button>
+            <button type = "button" id = "nextButton" onclick="next()"> Next </button>
+            <button type = "button" id = "backButton" onclick="back()"> Back </button>
         </div>
-        
+        </div>
     <footer></footer> 
     </body>
     

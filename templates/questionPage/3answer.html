@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Three-Answer Question Page</title>
+        <link rel = "stylesheet" type = "text/css" href = "3answer.css">
+        <script type="text/javascript" src="3answer.js"></script>
+    </head>
+    
+    <body>
+        
+        <div id= "quiz">
+        <div class= top>
+            <button type = "button" class = "mainMenu" onclick= "mainMenu()"> Main Menu </button>
+            <div class= "quizTitle">
+                <p>Are you a romantic?</p>
+            </div>
+        </div>
+        
+        <div class= "question">
+            <h1> Which fast food chain has the best fries? </h1>
+        </div>
+        <div class = answers>
+            <ul class = choices>
+                <li>
+                    <input type="radio" name="question1" value="classical" id= "mcdonalds"> <label for="mcdonalds"> McDonald's </label>
+                </li>
+                <li>
+                    <input type="radio" name="question1" value="romantic" id= "wendys"> <label for= "wendys">Wendy's</label>
+                </li>
+                <li>
+                    <input type="radio" name="question1" value="romantic" id= "fiveGuys"> <label for= "fiveGuys">Five Guys</label>
+                </li>
+            </ul>
+            </div>
+        
+        <div class = "nextAndBack">
+            <button type = "button" id = "nextButton" onclick="finish()"> Next </button>
+            
+            
+            <button type = "button" id = "backButton" onclick="back()"> Back </button>
+        </div>
+        </div>
+    <footer></footer> 
+    </body>
+    
+        
+</html>

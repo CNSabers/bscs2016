@@ -1,0 +1,79 @@
+#quiz .mainMenu {
+    width: 178px;
+    height: 104px;
+    font-size: 20pt;
+}
+
+#quiz .quizTitle {
+    float:right;
+}
+
+#quiz .question {
+    float: center;
+    text-align: center
+}
+
+/*Answers*/
+
+#quiz .answers {
+    width: 100%;
+    height: 49%;
+}
+
+/* list*/ 
+#quiz .choices {
+    list-style-type: none;
+    width: 100%;
+    height: 36%;
+    float: left;
+}
+
+/* hide radio buttons */
+input[type=radio]{
+    display:none;
+}
+
+/* labels */
+.choices label {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 417px;
+    height: 364px;
+    font-size: 20pt;
+}
+
+/* when checked */ 
+.choices input[type="radio"]:checked + label {
+    background-color: blue;
+}
+
+#quiz .choices li {
+    float:left;
+    margin: 3%;
+    width:41%;
+    height:47%;
+    text-align: center
+}
+
+/*Next and back container*/
+
+#quiz .nextAndBack {
+    width: 100%;
+    height: 8%;
+    float: left;
+    text-align: center
+}
+
+#nextButton {
+    float: right;
+    width: 178px;
+    height: 80px;
+    font-size: 20pt
+}
+
+#backButton {
+    float: left;
+    width: 178px;
+    height: 80px;
+    font-size: 20pt
+}
