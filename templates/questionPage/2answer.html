@@ -9,30 +9,27 @@
     </head>
     
     <body>
-        
+        <header>Are You a Romantic?</header>
         <div class="content">
-        <div class="top">    
-            <button type="button" class="mainMenu" onclick="mainMenu()">Main Menu</button>
-            <div class="quizTitle">
-                <p>Are you a romantic?</p>
-            </div>
+        <div>    
+            <button type="button" onclick="mainMenu()">Main Menu</button>
         </div>
         
-        <div class="question">
+        <div>
             <h1>What do you enjoy doing on saturday afternoons?</h1>
         </div>
-        <div class=answers>
-            <ul class=choices>
+        <div>
+            <ul>
                 <li>
-                    <input type="radio" name="question1" value="classical" id="classical"> <label for="classical">Homework</label>
+                    <input type="radio"><label>Homework</label>
                 </li>
                 <li>
-                    <input type="radio" name="question1" value="romantic" id="romantic"><label for="romantic">Rolling in dirt</label>
+                    <input type="radio"><label>Rolling in dirt</label>
                 </li>
             </ul>
             </div>
         
-        <div class = "nextAndBack">
+        <div class="buttonContainer">
             <button class="navButton" type="button" id="nextButton" onclick="next()"> Next </button>
             <button class="navButton" type="button" id="backButton" onclick="back()"> Back </button>
         </div>
