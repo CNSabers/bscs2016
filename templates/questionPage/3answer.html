@@ -8,33 +8,30 @@
     </head>
     
     <body>
-        
+        <header>Are you a Romantic?</header>
         <div id="content">
-        <div class="top">
-            <button type="button" class="mainMenu" onclick="mainMenu()"> Main Menu </button>
-            <div class="quizTitle">
-                <p>Are you a romantic?</p>
-            </div>
+        <div>
+            <button type="button" class="navButton" onclick="mainMenu()">Main Menu</button>
         </div>
         
-        <div class="question">
-            <h1> Which fast food chain has the best fries? </h1>
+        <div>
+            <h1>Which fast food chain has the best fries?</h1>
         </div>
-        <div class=answers>
-            <ul class=choices>
+        <div>
+            <ul>
                 <li>
-                    <input type="radio" name="question1" value="classical" id="mcdonalds"> <label for="mcdonalds">McDonald's</label>
+                    <input type="radio"><label>McDonald's</label>
                 </li>
                 <li>
-                    <input type="radio" name="question1" value="romantic" id="wendys"> <label for="wendys">Wendy's</label>
+                    <input type="radio"><label>Wendy's</label>
                 </li>
                 <li>
-                    <input type="radio" name="question1" value="romantic" id="fiveGuys"> <label for="fiveGuys">Five Guys</label>
+                    <input type="radio"><label>Five Guys</label>
                 </li>
             </ul>
             </div>
         
-        <div class="nextAndBack">
+        <div class="buttonContainer">
             <button class="navButton" type="button" id="nextButton" onclick="finish()">Next</button>
             
             
