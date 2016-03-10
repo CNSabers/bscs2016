@@ -31,19 +31,12 @@ header {
     height:180px;
 }
 
-.descriptions {
+.description {
     font-size:16pt;
     font-family:Verdana;
     margin: -5%;
 }
 
-#maryQuizDescription {
-    
-}
-
-#romanticQuizDescription {
-    
-}
 
 #maryQuizAndDescription {
     float:left;

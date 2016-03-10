@@ -3,37 +3,35 @@
     <head>
         <meta charset="utf-8"/>
         <title>Two-Answer Question Page</title>
-        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <meta charset=“utf-8”>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript" src="2answer.js"></script>
     </head>
     
     <body>
-        
-        <div id= "quiz">
-        <div class= top>    
-            <button type = "button" class = "mainMenu" onclick="mainMenu()">Main Menu</button>
-            <div class= "quizTitle">
-                <p>Are you a romantic?</p>
-            </div>
+        <header>Are You a Romantic?</header>
+        <div class="content">
+        <div>    
+            <button type="button" class="navButton" onclick="mainMenu()">Main Menu</button>
         </div>
         
-        <div class= "question">
-            <h1> What do you enjoy doing on saturday afternoons? </h1>
+        <div>
+            What do you enjoy doing on saturday afternoons?
         </div>
-        <div class = answers>
-            <ul class = choices>
+        <div>
+            <ul>
                 <li>
-                    <input type="radio" name="question1" value="classical" id= "classical"> <label for="classical"> Homework </label>
+                    <input type="radio"><label>Homework</label>
                 </li>
                 <li>
-                    <input type="radio" name="question1" value="romantic" id= "romantic"> <label for= "romantic">Rolling in dirt</label>
+                    <input type="radio"><label>Rolling in dirt</label>
                 </li>
             </ul>
             </div>
         
-        <div class = "nextAndBack">
-            <button type = "button" id = "nextButton" onclick="next()"> Next </button>
-            <button type = "button" id = "backButton" onclick="back()"> Back </button>
+        <div class="buttonContainer">
+            <button class="navButton" type="button" id="nextButton" onclick="next()"> Next </button>
+            <button class="navButton" type="button" id="backButton" onclick="back()"> Back </button>
         </div>
         </div>
     <footer></footer> 

@@ -3,46 +3,41 @@
     <head>
         <meta charset="utf-8"/>
         <title>Three-Answer Question Page</title>
-        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript" src="style.js"></script>
     </head>
     
     <body>
-        
-        <div id= "quiz">
-        <div class= top>
-            <button type = "button" class = "mainMenu" onclick= "mainMenu()"> Main Menu </button>
-            <div class= "quizTitle">
-                <p>Are you a romantic?</p>
-            </div>
+        <header>Are you a Romantic?</header>
+        <div id="content">
+        <div>
+            <button type="button" class="navButton" onclick="mainMenu()">Main Menu</button>
         </div>
         
-        <div class= "question">
-            <h1> Which fast food chain has the best fries? </h1>
+        <div>
+            Which fast food chain has the best fries?
         </div>
-        <div class = answers>
-            <ul class = choices>
+        <div>
+            <ul>
                 <li>
-                    <input type="radio" name="question1" value="classical" id= "mcdonalds"> <label for="mcdonalds"> McDonald's </label>
+                    <input type="radio"><label>McDonald's</label>
                 </li>
                 <li>
-                    <input type="radio" name="question1" value="romantic" id= "wendys"> <label for= "wendys">Wendy's</label>
+                    <input type="radio"><label>Wendy's</label>
                 </li>
                 <li>
-                    <input type="radio" name="question1" value="romantic" id= "fiveGuys"> <label for= "fiveGuys">Five Guys</label>
+                    <input type="radio"><label>Five Guys</label>
                 </li>
             </ul>
             </div>
         
-        <div class = "nextAndBack">
-            <button type = "button" id = "nextButton" onclick="finish()"> Next </button>
+        <div class="buttonContainer">
+            <button class="navButton" type="button" id="nextButton" onclick="finish()">Next</button>
             
             
-            <button type = "button" id = "backButton" onclick="back()"> Back </button>
+            <button class="navButton" type="button" id="backButton" onclick="back()">Back</button>
         </div>
         </div>
     <footer></footer> 
-    </body>
-    
-        
+    </body>    
 </html>
